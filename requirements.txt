@@ -1,4 +1,4 @@
-pyrogram
+Pyrogram==1.4.12
 tgcrypto
 requests
 pytesseract
