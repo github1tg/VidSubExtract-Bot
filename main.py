@@ -68,7 +68,7 @@ path = os.path.join(dirs, f"{LANG}.traineddata")
 if not os.path.exists(path):
     data = requests.get(tessdata, allow_redirects=True, headers={"User-Agent": "Mozilla/5.0"})
     if data.status_code == 200:
-        open(path, "wb").write(data.content)
+        open(path, "web").write(data.content)
     else:
         print("Either the lang code is wrong or the lang is not supported.")
 
